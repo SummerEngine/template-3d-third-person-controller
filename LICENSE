@@ -1,9 +1,9 @@
 This project uses 2 licenses:
 
-1. The demo's source code (script files, scene files, shaders, and generally all Godot-generated resources) is available under the MIT license.
+1. The template's source code (script files, scene files, shaders, and generally all Summer Engine-generated resources) is available under the MIT license.
 2. Art assets (image textures and 3D models) are [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-In short, this means you can reuse code and art assets in your own projects freely, including commercial ones, as long as you give credit to GDQuest.
+In short, this means you can reuse code and art assets in your own projects freely, including commercial ones, as long as you give credit where due.
 
 For assets, you can add this to your credits: "Additional assets CC-By 4.0 GDQuest (https://www.gdquest.com/)".
 
@@ -15,7 +15,7 @@ The above is just for clarity. You can find the exact terms of each license belo
 
 ## MIT License
 
-Copyright (c) 2022-present GDQuest
+Copyright (c) 2025 Summer Engine
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
