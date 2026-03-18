@@ -1,26 +1,19 @@
 ---
-cover: static/cover.webp
-itchio: https://gdquest-demos.itch.io/Godot-4-Character-3D-Demo
 tags: 3D third-person-shooter shooter controller
 description: "A 3D Third Person Shooter Controller Demo"
 ---
 
-# RoboBlast: Third-Person Shooter demo (Godot 4, 3D)
+# RoboBlast: Third-Person Shooter demo (Summer Engine, 3D)
 
 ![](static/third-person-shooter-demo.webp)
 
-This open-source Godot 4 demo shows how to create a 3D character controller inspired by games like Ratchet and Clank or Jak and Daxter. You can copy the character to your project as a plug-and-play asset to prototype 3D games with and build upon.
+This open-source Summer Engine demo shows how to create a 3D character controller inspired by games like Ratchet and Clank or Jak and Daxter. You can copy the character to your project as a plug-and-play asset to prototype 3D games with and build upon.
 
 It features a character that can run, jump, make a melee attack, aim, shoot, and throw grenades.
 
 ![](static/third-person-character-aiming-grenade.webp)
 
 There are two kinds of enemies: flying wasps that fire bullets and beetles that attack you on the ground. The environment comes with breakable crates, jumping pads, and coins that move to the player's character.
-
-## How to run:
-
-1. Download or clone the GitHub repository.
-2. Press <kbd>F5</kbd> or `Run Project`.
 
 ## Controls:
 

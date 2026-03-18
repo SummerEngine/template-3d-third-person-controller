@@ -180,7 +180,7 @@ theme_override_constants/margin_right = 10
 [node name="Description" type="Label" parent="CanvasLayer/DemoPageRoot/Content/Content/GameDescription/MarginContainer/ContentContainer/DescriptionMargin"]
 layout_mode = 2
 size_flags_vertical = 1
-text = "This demo features a simple character controller for Third-Person Shooter games. The player can move around, jump, attack, shoot projectiles and launch grenades. Collect Godot-coins by destroying crates!"
+text = "This demo features a simple character controller for Third-Person Shooter games. The player can move around, jump, attack, shoot projectiles and launch grenades. Collect Summer Engine coins by destroying crates!"
 label_settings = SubResource("LabelSettings_g5g84")
 autowrap_mode = 2
 
