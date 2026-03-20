@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://u8dgw2xh1ofy"
-path="res://.godot/imported/discord-icon.png-114380545e79676bc71bbd93611bfd72.ctex"
+uid="uid://dxhh0xl22vefm"
+path="res://.godot/imported/summer_engine_logo.png-f614f327a47ca806a61fcf3fe9896765.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://demo_page/assets/discord-icon.png"
-dest_files=["res://.godot/imported/discord-icon.png-114380545e79676bc71bbd93611bfd72.ctex"]
+source_file="res://demo_page/assets/summer_engine_logo.png"
+dest_files=["res://.godot/imported/summer_engine_logo.png-f614f327a47ca806a61fcf3fe9896765.ctex"]
 
 [params]
 
