@@ -3,8 +3,11 @@ class_name CameraController extends Node3D
 enum CAMERA_PIVOT { OVER_SHOULDER, THIRD_PERSON }
 
 @export var invert_mouse_y := false
-@export_range(0.0, 1.0) var mouse_sensitivity := 0.25
-@export_range(0.0, 8.0) var joystick_sensitivity := 2.0
+## Radians of camera rotation per pixel of mouse travel. Applied directly —
+## never scaled by frame delta — so the camera feels identical at any FPS.
+@export_range(0.0, 0.01, 0.0001) var mouse_sensitivity := 0.002
+## Radians per second of camera rotation at full stick deflection.
+@export_range(0.0, 8.0) var joystick_sensitivity := 1.0
 @export var tilt_upper_limit := deg_to_rad(-60.0)
 @export var tilt_lower_limit := deg_to_rad(60.0)
 
@@ -29,16 +32,22 @@ var _euler_rotation: Vector3
 func _unhandled_input(event: InputEvent) -> void:
 	_mouse_input = event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED
 	if _mouse_input:
-		_rotation_input = -event.relative.x * mouse_sensitivity
-		_tilt_input = -event.relative.y * mouse_sensitivity
+		# Mouse relative is already a displacement (pixels moved this event),
+		# so it converts straight to radians. += so several motion events in
+		# one frame accumulate instead of overwriting each other.
+		_rotation_input += -event.relative.x * mouse_sensitivity
+		_tilt_input += -event.relative.y * mouse_sensitivity
 
 
 func _process(delta: float) -> void:
 	if not _anchor:
 		return
 
-	_rotation_input += Input.get_action_raw_strength("camera_left") - Input.get_action_raw_strength("camera_right")
-	_tilt_input += Input.get_action_raw_strength("camera_up") - Input.get_action_raw_strength("camera_down")
+	# Stick deflection is a rate (radians per second), so unlike the mouse
+	# path it does get scaled by delta — and by the joystick sensitivity,
+	# which was previously exported but never applied.
+	_rotation_input += (Input.get_action_raw_strength("camera_left") - Input.get_action_raw_strength("camera_right")) * joystick_sensitivity * delta
+	_tilt_input += (Input.get_action_raw_strength("camera_up") - Input.get_action_raw_strength("camera_down")) * joystick_sensitivity * delta
 
 	if invert_mouse_y:
 		_tilt_input *= -1
@@ -55,10 +64,13 @@ func _process(delta: float) -> void:
 	target_position.y = lerp(global_position.y, _anchor._ground_height, 0.1)
 	global_position = target_position
 
-	# Rotates camera using euler rotation
-	_euler_rotation.x += _tilt_input * delta
+	# Rotates camera using euler rotation. The inputs are already in radians
+	# (mouse applied per-pixel, joystick already scaled by delta above), so
+	# no delta here — multiplying mouse deltas by frame time made sensitivity
+	# scale with FPS: 2.4x faster at 60fps than at 144fps.
+	_euler_rotation.x += _tilt_input
 	_euler_rotation.x = clamp(_euler_rotation.x, tilt_lower_limit, tilt_upper_limit)
-	_euler_rotation.y += _rotation_input * delta
+	_euler_rotation.y += _rotation_input
 
 	transform.basis = Basis.from_euler(_euler_rotation)
 
@@ -71,6 +83,10 @@ func _process(delta: float) -> void:
 
 func setup(anchor: CharacterBody3D) -> void:
 	_anchor = anchor
+	# Discard any mouse motion accumulated before the anchor existed, so the
+	# camera doesn't jump on the first controlled frame.
+	_rotation_input = 0.0
+	_tilt_input = 0.0
 	global_transform = _anchor.global_transform
 	_offset = global_transform.origin - anchor.global_transform.origin
 	set_pivot(CAMERA_PIVOT.THIRD_PERSON)
