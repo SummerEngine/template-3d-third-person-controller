@@ -5,6 +5,11 @@ description: "A 3D Third Person Shooter Controller Demo"
 
 # RoboBlast: Third-Person Shooter demo (Summer Engine, 3D)
 
+> **Made by [GDQuest](https://www.gdquest.com/), adapted for Summer Engine.**
+> This is GDQuest's open-source RoboBlast demo
+> ([original repository](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)),
+> MIT-licensed code and CC-By 4.0 art. If you ship a game built on it, credit GDQuest — see `LICENSE`.
+
 ![](static/third-person-shooter-demo.webp)
 
 This open-source Summer Engine demo shows how to create a 3D character controller inspired by games like Ratchet and Clank or Jak and Daxter. You can copy the character to your project as a plug-and-play asset to prototype 3D games with and build upon.
