@@ -1,10 +1,10 @@
 [gd_scene load_steps=11 format=3 uid="uid://dg0wykgc07csg"]
 
-[ext_resource type="Texture2D" uid="uid://boexk81is8yhq" path="res://level/gridbox_texture.png" id="1_dxgkr"]
-[ext_resource type="PackedScene" uid="uid://ciqrpd5675boy" path="res://player/player.tscn" id="1_stlen"]
-[ext_resource type="PackedScene" uid="uid://cmwyiep10m4u4" path="res://box/box.tscn" id="3_od2wg"]
-[ext_resource type="PackedScene" uid="uid://rn45gytkk6tv" path="res://enemies/bee_bot.tscn" id="4_n8dao"]
-[ext_resource type="PackedScene" uid="uid://7j15r0ej4fwx" path="res://jumping_pad/jumping_pad.tscn" id="5_mqpld"]
+[ext_resource type="Texture2D" path="res://level/gridbox_texture.png" id="1_dxgkr"]
+[ext_resource type="PackedScene" path="res://player/player.tscn" id="1_stlen"]
+[ext_resource type="PackedScene" path="res://box/box.tscn" id="3_od2wg"]
+[ext_resource type="PackedScene" path="res://enemies/bee_bot.tscn" id="4_n8dao"]
+[ext_resource type="PackedScene" path="res://jumping_pad/jumping_pad.tscn" id="5_mqpld"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_v8uq4"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)

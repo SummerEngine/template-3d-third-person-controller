@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://b68u2dl4qlooi"]
 
-[ext_resource type="Shader" uid="uid://1mm42h234gn6" path="res://player/explosion_visuals/shaders/shell_shader.gdshader" id="1_lk055"]
+[ext_resource type="Shader" path="res://player/explosion_visuals/shaders/shell_shader.gdshader" id="1_lk055"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_4kwk8"]
 noise_type = 2

@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://e7p4xvo51lbl"]
 
-[ext_resource type="Material" uid="uid://b68u2dl4qlooi" path="res://player/explosion_visuals/materials/shell_mat.tres" id="2_0w2wd"]
-[ext_resource type="Material" uid="uid://8qp4bf0yp6ry" path="res://player/explosion_visuals/materials/blast_mat.tres" id="3_buqr0"]
-[ext_resource type="ArrayMesh" uid="uid://bw14c1iaac2sq" path="res://player/explosion_visuals/objects/disk.obj" id="4_5ir1b"]
-[ext_resource type="Material" uid="uid://ben1qjmc14yjq" path="res://player/explosion_visuals/materials/particles_mat.tres" id="5_id1fu"]
+[ext_resource type="Material" path="res://player/explosion_visuals/materials/shell_mat.tres" id="2_0w2wd"]
+[ext_resource type="Material" path="res://player/explosion_visuals/materials/blast_mat.tres" id="3_buqr0"]
+[ext_resource type="ArrayMesh" path="res://player/explosion_visuals/objects/disk.obj" id="4_5ir1b"]
+[ext_resource type="Material" path="res://player/explosion_visuals/materials/particles_mat.tres" id="5_id1fu"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_vfl0d"]
 radial_segments = 32

@@ -1,13 +1,13 @@
 [gd_scene load_steps=18 format=3 uid="uid://c0mo8tek77du4"]
 
-[ext_resource type="Script" uid="uid://q1mov6uggysn" path="res://player/character_skin.gd" id="2_cp6td"]
-[ext_resource type="PackedScene" uid="uid://db7wkegkjmixy" path="res://player/model/gdbot.glb" id="2_v8h3f"]
-[ext_resource type="Material" uid="uid://dh42cdejchkr3" path="res://player/model/materials/face_mat.tres" id="3_fvn82"]
-[ext_resource type="AnimationNodeBlendTree" uid="uid://ctycm6blx4sw4" path="res://player/model/character_blend_tree.tres" id="3_hscum"]
-[ext_resource type="Material" uid="uid://cq6bdna8ieu87" path="res://player/model/materials/heart_core_mat.tres" id="3_oijnk"]
-[ext_resource type="Animation" uid="uid://b627b68jhaqwt" path="res://player/model/custom_animations/default_heartbeat.tres" id="3_xjurk"]
-[ext_resource type="Animation" uid="uid://diuutac72yquv" path="res://player/model/custom_animations/simple_blink.tres" id="4_5i6m7"]
-[ext_resource type="Material" uid="uid://4ugdxr58llu8" path="res://player/model/materials/glass_mat.tres" id="4_5srhf"]
+[ext_resource type="Script" path="res://player/character_skin.gd" id="2_cp6td"]
+[ext_resource type="PackedScene" path="res://player/model/gdbot.glb" id="2_v8h3f"]
+[ext_resource type="Material" path="res://player/model/materials/face_mat.tres" id="3_fvn82"]
+[ext_resource type="AnimationNodeBlendTree" path="res://player/model/character_blend_tree.tres" id="3_hscum"]
+[ext_resource type="Material" path="res://player/model/materials/heart_core_mat.tres" id="3_oijnk"]
+[ext_resource type="Animation" path="res://player/model/custom_animations/default_heartbeat.tres" id="3_xjurk"]
+[ext_resource type="Animation" path="res://player/model/custom_animations/simple_blink.tres" id="4_5i6m7"]
+[ext_resource type="Material" path="res://player/model/materials/glass_mat.tres" id="4_5srhf"]
 
 [sub_resource type="Animation" id="Animation_kkfn2"]
 resource_name = "Idle"

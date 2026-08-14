@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cqw64w6kb0fyg"]
 
-[ext_resource type="PackedScene" uid="uid://dta8u77j4ye4v" path="res://player/coin/coin_visuals/coin_model.glb" id="1_0qdgb"]
-[ext_resource type="Script" uid="uid://c3q655fuoyb17" path="res://player/coin/coin_visuals/coin_model.gd" id="2_eyhxj"]
+[ext_resource type="PackedScene" path="res://player/coin/coin_visuals/coin_model.glb" id="1_0qdgb"]
+[ext_resource type="Script" path="res://player/coin/coin_visuals/coin_model.gd" id="2_eyhxj"]
 
 [node name="Coin" type="Node3D"]
 
