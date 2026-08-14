@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://cmwyiep10m4u4"]
 
-[ext_resource type="Script" uid="uid://in45yuu25p4m" path="res://box/box.gd" id="1_oklwc"]
-[ext_resource type="PackedScene" uid="uid://cqekaooy1ktfl" path="res://box/box_visuals/box.glb" id="2_ggurh"]
-[ext_resource type="AudioStream" uid="uid://dd7nemvkapogt" path="res://box/sounds/crate-break-1-93926.wav" id="3_71fsr"]
+[ext_resource type="Script" path="res://box/box.gd" id="1_oklwc"]
+[ext_resource type="PackedScene" path="res://box/box_visuals/box.glb" id="2_ggurh"]
+[ext_resource type="AudioStream" path="res://box/sounds/crate-break-1-93926.wav" id="3_71fsr"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_sjlkk"]
 rough = true

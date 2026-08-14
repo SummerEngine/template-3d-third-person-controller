@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://bguebyvtegnv8"]
 
-[ext_resource type="Script" uid="uid://c1022yrcfr3jx" path="res://player/bullet.gd" id="1_8b555"]
-[ext_resource type="PackedScene" uid="uid://5ttf446nggra" path="res://player/bullet_visuals/bullet_model.tscn" id="2_68e7a"]
-[ext_resource type="AudioStream" uid="uid://c7w6ecthdjbuk" path="res://player/sounds/lasershot-102078.wav" id="3_3vyow"]
+[ext_resource type="Script" path="res://player/bullet.gd" id="1_8b555"]
+[ext_resource type="PackedScene" path="res://player/bullet_visuals/bullet_model.tscn" id="2_68e7a"]
+[ext_resource type="AudioStream" path="res://player/sounds/lasershot-102078.wav" id="3_3vyow"]
 
 [sub_resource type="Curve" id="Curve_2sbfy"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.907143, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), -14.9899, 0.0, 0, 0]

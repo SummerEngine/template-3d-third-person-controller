@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://5ttf446nggra"]
 
-[ext_resource type="Material" uid="uid://bii1msr5lsqwb" path="res://player/bullet_visuals/bullet_trail_mat.tres" id="1_eipo0"]
-[ext_resource type="ArrayMesh" uid="uid://ch30025kg24b1" path="res://player/bullet_visuals/bullet_model.obj" id="2_iugoo"]
-[ext_resource type="Shader" uid="uid://doggmqbfn8scv" path="res://player/bullet_visuals/bullet_spark_shader.gdshader" id="3_5yj07"]
-[ext_resource type="Texture2D" uid="uid://dsxj3ih1ne0bu" path="res://player/bullet_visuals/sparks.png" id="4_ia7or"]
+[ext_resource type="Material" path="res://player/bullet_visuals/bullet_trail_mat.tres" id="1_eipo0"]
+[ext_resource type="ArrayMesh" path="res://player/bullet_visuals/bullet_model.obj" id="2_iugoo"]
+[ext_resource type="Shader" path="res://player/bullet_visuals/bullet_spark_shader.gdshader" id="3_5yj07"]
+[ext_resource type="Texture2D" path="res://player/bullet_visuals/sparks.png" id="4_ia7or"]
 
 [sub_resource type="Gradient" id="Gradient_3mgi4"]
 interpolation_mode = 2
