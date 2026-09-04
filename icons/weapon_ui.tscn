@@ -43,6 +43,7 @@ theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 2
 
 [node name="Flash" parent="Control/MarginContainer" instance=ExtResource("2_etwmu")]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="MarginContainer2" type="MarginContainer" parent="Control"]
@@ -53,5 +54,6 @@ theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 2
 
 [node name="Grenade" parent="Control/MarginContainer2" instance=ExtResource("2_etwmu")]
+unique_name_in_owner = true
 layout_mode = 2
 texture = ExtResource("2_s3oom")
