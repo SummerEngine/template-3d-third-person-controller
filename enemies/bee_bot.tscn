@@ -1,8 +1,8 @@
 [gd_scene load_steps=16 format=3 uid="uid://rn45gytkk6tv"]
 
-[ext_resource type="Script" uid="uid://cek4nujsmemif" path="res://enemies/bee_bot.gd" id="1_eehkx"]
-[ext_resource type="PackedScene" uid="uid://4nwp6xgihjc7" path="res://enemies/bee_bot/bee_root.tscn" id="2_btoc7"]
-[ext_resource type="AudioStream" uid="uid://c66nnoqtanfw2" path="res://enemies/sounds/robot_defeat.wav" id="3_1gs12"]
+[ext_resource type="Script" path="res://enemies/bee_bot.gd" id="1_eehkx"]
+[ext_resource type="PackedScene" path="res://enemies/bee_bot/bee_root.tscn" id="2_btoc7"]
+[ext_resource type="AudioStream" path="res://enemies/sounds/robot_defeat.wav" id="3_1gs12"]
 
 [sub_resource type="Animation" id="Animation_5pcps"]
 length = 0.001

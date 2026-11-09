@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=3 uid="uid://okmv1cbta83x"]
 
-[ext_resource type="Script" uid="uid://cqm1nv17wkc6a" path="res://enemies/smoke_puff/smoke_puff.gd" id="1_3ltu4"]
-[ext_resource type="PackedScene" uid="uid://n5v4vlr80bj8" path="res://enemies/smoke_puff/smoke_ball.glb" id="3_gsgkx"]
-[ext_resource type="Material" uid="uid://cnvmsr64tkgyn" path="res://enemies/smoke_puff/smoke_ball_middle_mat.tres" id="3_wa5gb"]
-[ext_resource type="Shader" uid="uid://bp40q8ga3f2f7" path="res://enemies/smoke_puff/smoke_ball.gdshader" id="4_bh8q1"]
-[ext_resource type="AudioStream" uid="uid://ddhimfnmpxlrp" path="res://enemies/smoke_puff/Sounds/poof_1.wav" id="5_qiexl"]
-[ext_resource type="AudioStream" uid="uid://cgv0ngrh5ofe" path="res://enemies/smoke_puff/Sounds/poof_2.wav" id="6_1l2bk"]
+[ext_resource type="Script" path="res://enemies/smoke_puff/smoke_puff.gd" id="1_3ltu4"]
+[ext_resource type="PackedScene" path="res://enemies/smoke_puff/smoke_ball.glb" id="3_gsgkx"]
+[ext_resource type="Material" path="res://enemies/smoke_puff/smoke_ball_middle_mat.tres" id="3_wa5gb"]
+[ext_resource type="Shader" path="res://enemies/smoke_puff/smoke_ball.gdshader" id="4_bh8q1"]
+[ext_resource type="AudioStream" path="res://enemies/smoke_puff/Sounds/poof_1.wav" id="5_qiexl"]
+[ext_resource type="AudioStream" path="res://enemies/smoke_puff/Sounds/poof_2.wav" id="6_1l2bk"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_sxisx"]
 noise_type = 2

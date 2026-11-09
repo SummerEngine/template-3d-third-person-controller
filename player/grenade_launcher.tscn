@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://b2ew46dlu7u7x"]
 
-[ext_resource type="Script" uid="uid://di8d4fxee0obj" path="res://player/grenade_launcher.gd" id="1_n50mh"]
-[ext_resource type="Material" uid="uid://dus6jtbfyqwj8" path="res://player/grenade_visuals/aim_material.tres" id="2_qr0pg"]
-[ext_resource type="Material" uid="uid://b6h7p7jogt6ep" path="res://player/grenade_visuals/trajectory_material.tres" id="3_s7dm5"]
+[ext_resource type="Script" path="res://player/grenade_launcher.gd" id="1_n50mh"]
+[ext_resource type="Material" path="res://player/grenade_visuals/aim_material.tres" id="2_qr0pg"]
+[ext_resource type="Material" path="res://player/grenade_visuals/trajectory_material.tres" id="3_s7dm5"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_we0uy"]
 

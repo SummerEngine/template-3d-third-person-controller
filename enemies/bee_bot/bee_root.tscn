@@ -1,11 +1,11 @@
 [gd_scene load_steps=34 format=3 uid="uid://4nwp6xgihjc7"]
 
-[ext_resource type="Script" uid="uid://b2egwb081rf2j" path="res://enemies/bee_bot/bee_root.gd" id="1_eu6t5"]
-[ext_resource type="PackedScene" uid="uid://f0vfmhexafmx" path="res://enemies/bee_bot/bee_bot.glb" id="1_icaj7"]
-[ext_resource type="Shader" uid="uid://dn0buvkbk5151" path="res://shared/shaders/face_mat.gdshader" id="2_7vdnh"]
-[ext_resource type="Texture2D" uid="uid://d3i42hq0p8ijb" path="res://shared/eye_mask.png" id="3_qgh3u"]
-[ext_resource type="Shader" uid="uid://cgo6mtf3a5e65" path="res://enemies/bee_bot/bee_wings_shader.gdshader" id="4_hnl3k"]
-[ext_resource type="Texture2D" uid="uid://c4mdnjycm0yse" path="res://enemies/bee_bot/wing_pattern.png" id="5_expcp"]
+[ext_resource type="Script" path="res://enemies/bee_bot/bee_root.gd" id="1_eu6t5"]
+[ext_resource type="PackedScene" path="res://enemies/bee_bot/bee_bot.glb" id="1_icaj7"]
+[ext_resource type="Shader" path="res://shared/shaders/face_mat.gdshader" id="2_7vdnh"]
+[ext_resource type="Texture2D" path="res://shared/eye_mask.png" id="3_qgh3u"]
+[ext_resource type="Shader" path="res://enemies/bee_bot/bee_wings_shader.gdshader" id="4_hnl3k"]
+[ext_resource type="Texture2D" path="res://enemies/bee_bot/wing_pattern.png" id="5_expcp"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pylk6"]
 resource_local_to_scene = true

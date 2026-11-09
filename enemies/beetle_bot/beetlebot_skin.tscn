@@ -1,10 +1,10 @@
 [gd_scene load_steps=41 format=3 uid="uid://cxt8d0d4ift6"]
 
-[ext_resource type="Script" uid="uid://crhdujyi5ku8c" path="res://enemies/beetle_bot/beetlebot_skin.gd" id="1_1smde"]
-[ext_resource type="PackedScene" uid="uid://dbqoj8oam1dsg" path="res://enemies/beetle_bot/beetle_bot_fused.glb" id="1_r7amh"]
-[ext_resource type="Shader" uid="uid://8krt5d53bjk" path="res://player/face_mat.gdshader" id="3_p37mm"]
-[ext_resource type="Material" uid="uid://h2e57pyy6lu4" path="res://enemies/beetle_bot/materials/beetlebot_lights_mat.tres" id="4_4158y"]
-[ext_resource type="Texture2D" uid="uid://d3i42hq0p8ijb" path="res://shared/eye_mask.png" id="4_trpq3"]
+[ext_resource type="Script" path="res://enemies/beetle_bot/beetlebot_skin.gd" id="1_1smde"]
+[ext_resource type="PackedScene" path="res://enemies/beetle_bot/beetle_bot_fused.glb" id="1_r7amh"]
+[ext_resource type="Shader" path="res://player/face_mat.gdshader" id="3_p37mm"]
+[ext_resource type="Material" path="res://enemies/beetle_bot/materials/beetlebot_lights_mat.tres" id="4_4158y"]
+[ext_resource type="Texture2D" path="res://shared/eye_mask.png" id="4_trpq3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_awqgi"]
 render_priority = 0

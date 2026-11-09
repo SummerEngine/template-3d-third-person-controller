@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://d3765dge2xh0"]
 
-[ext_resource type="PackedScene" uid="uid://bmg4l7oil4aeu" path="res://player/grenade_visuals/grenade/grenade.glb" id="1_2hras"]
-[ext_resource type="Script" uid="uid://v3y1wshis2ag" path="res://player/grenade_visuals/grenade/grenade.gd" id="2_ldjuw"]
-[ext_resource type="Material" uid="uid://bqiflyx3ow1ul" path="res://player/grenade_visuals/grenade/grenade.material" id="3_wctyh"]
+[ext_resource type="PackedScene" path="res://player/grenade_visuals/grenade/grenade.glb" id="1_2hras"]
+[ext_resource type="Script" path="res://player/grenade_visuals/grenade/grenade.gd" id="2_ldjuw"]
+[ext_resource type="Material" path="res://player/grenade_visuals/grenade/grenade.material" id="3_wctyh"]
 
 [sub_resource type="Animation" id="Animation_afydg"]
 length = 0.001

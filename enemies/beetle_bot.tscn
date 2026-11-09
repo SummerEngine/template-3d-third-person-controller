@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://oxyn25v5khuk"]
 
-[ext_resource type="Script" uid="uid://cqc5pcgf243iw" path="res://enemies/beetle_bot.gd" id="1_mefon"]
-[ext_resource type="PackedScene" uid="uid://cxt8d0d4ift6" path="res://enemies/beetle_bot/beetlebot_skin.tscn" id="2_1wpkj"]
-[ext_resource type="AudioStream" uid="uid://c66nnoqtanfw2" path="res://enemies/sounds/robot_defeat.wav" id="3_w5eam"]
+[ext_resource type="Script" path="res://enemies/beetle_bot.gd" id="1_mefon"]
+[ext_resource type="PackedScene" path="res://enemies/beetle_bot/beetlebot_skin.tscn" id="2_1wpkj"]
+[ext_resource type="AudioStream" path="res://enemies/sounds/robot_defeat.wav" id="3_w5eam"]
 
 [sub_resource type="Animation" id="Animation_5pcps"]
 length = 0.001
